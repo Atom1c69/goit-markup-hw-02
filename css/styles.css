@@ -68,6 +68,9 @@ ul {
 }
 
 /* -----------------------------------SECTION-1---------------------------- */
+.hero {
+    background-color: #2e2f42;
+}
 
 .hero-title {
     font-weight: 700;
@@ -75,6 +78,7 @@ ul {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color:var(--body-fon);
+    text-align: center;
 }
 
 .hero-btn {
@@ -86,8 +90,12 @@ ul {
     letter-spacing: 0.04em;
     color:var(--body-fon);
     background:var(--logo-color);
+    cursor: pointer;
 }
 
+.hero-btn:focus {
+    background-color: #404BBF;
+}
 .hero-btn:hover {
     background:var(--button-color);
 }
@@ -139,6 +147,8 @@ ul {
     line-height: 1.11;
     letter-spacing: 0.02em;
     color:var(--title-subtitle-color);
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .ourteam-sub-title {
@@ -156,10 +166,15 @@ ul {
     color:var(--text-color);
 }
 
+.ourteam-list {
+    background-color: var(--body-fon);
+}
+
 /* --------------------------------FOOTER---------------------------------------- */
 
 .footer{
-    color:var(--title-subtitle-color)
+    color:var(--title-subtitle-color);
+    background-color:var(--title-subtitle-color);
 }
 
 .footer-logo{
@@ -183,7 +198,7 @@ ul {
 /* ---------------------------------PORTFOLIO------------------------------------- */
 
 .button-item {
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -219,4 +234,8 @@ ul {
 .apps-list {
     list-style: none;
 
+}
+
+.image-link {
+    text-decoration: none;
 }
