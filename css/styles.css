@@ -20,6 +20,9 @@ ul {
 }
 
 /*-------------------------------------HEADER---------------------------------- */
+.header-menu {
+    text-decoration: none;
+}
 
 .header-logo{
     font-family: "Raleway", sans-serif;
@@ -167,7 +170,11 @@ ul {
 }
 
 .ourteam-list {
-    background-color: var(--body-fon);
+    background-color: #FFFFFF;
+}
+
+.ourteam {
+    background-color: #F4F4FD;
 }
 
 /* --------------------------------FOOTER---------------------------------------- */
@@ -238,4 +245,13 @@ ul {
 
 .image-link {
     text-decoration: none;
+}
+
+.adress {
+    font-style: normal;
+
+}
+
+.header-adress {
+    list-style: none;
 }
